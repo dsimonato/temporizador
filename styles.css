@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Fundo preto */
+    font-family: 'Barrio', cursive; /* Fonte Barrio */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF; /* Texto branco */
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Remove setas no Firefox */
+    -webkit-appearance: none; /* Remove setas no Chrome, Safari, Edge, Opera */
+    appearance: none; /* Remove setas no Chrome, Safari, Edge, Opera */
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Cor do número branco */
+    border: 0px solid #FFFFFF; /* Contorno branco */
+    text-align: center; /* Centralizar o número */
+    font-size: 20px;
+    padding: 0px;
+    width: 30px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #840a99; /* Botão roxo */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+}
+
+#decreaseButton, #increaseButton {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Cor do texto branco */
+    border: 0px solid #FFFFFF; /* Contorno branco */
+    padding: 5px 20px;
+    font-size: 26px;
+}
+
+.timer {
+    font-size: 250px; /* Tamanho da fonte atualizado */
+    color: #ffb300; /* Números em amarelo */
+    margin-bottom: 20px; /* Margem inferior atualizada */
+}

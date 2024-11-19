@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="input-container">
+        <button id="decreaseButton">-</button>
+        <input type="number" id="timeInput" min="1" value="10" placeholder="Segundos">
+        <button id="increaseButton">+</button>
+    </div>
+    <div class="timer">
+        <span id="seconds">00</span>
+    </div>
+    <button id="startButton">COMEÇA</button>
+    <audio id="alarmSound" src="acabou.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
